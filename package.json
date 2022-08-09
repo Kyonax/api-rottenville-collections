@@ -1,0 +1,30 @@
+{
+  "name": "api-rottenville-collections",
+  "version": "1.0.0",
+  "description": "Rottenville API Collections",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kyonax/api-rottenville-collections.git"
+  },
+  "keywords": [
+    "API",
+    "Kyo",
+    "RottenVille"
+  ],
+  "author": "Kyonax",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kyonax/api-rottenville-collections/issues"
+  },
+  "homepage": "https://github.com/Kyonax/api-rottenville-collections#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  }
+}
