@@ -1,10 +1,12 @@
 const serverless = require("serverless-http");
 const express = require("express");
+const cors = require('cors');
 const app = express();
 //Personal Codes
 const Exe = require("./tools/functions")
 
 require("dotenv").config();
+app.use(cors());
 
 app.get("/", (req, res, next) => {
   return res.status(200).json({

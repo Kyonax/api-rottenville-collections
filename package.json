@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "API for the NFT Collections of RottenVille.",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.0.1",
     "express": "^4.17.1",
     "serverless-http": "^2.7.0"
